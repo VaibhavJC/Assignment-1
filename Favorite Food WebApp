@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./Assignment.css" rel = "stylesheet"/>
+</head>
+<body>
+    <div>
+        <ul class="top">
+            <p class="menu">Index</p>
+            <p class="menu">Food</p>
+            <p class="menu">About</p>
+        </ul>
+    </div>
+
+    <div>
+        <h1 style="margin-left: 20px;">Top 5 Favourite Food</h1>
+        <ul>
+            <li><a href="#first-image">Kachori</a></li>
+            <li><a href="#second-image">Pav Bhaji</a></li>
+            <li><a href="#third-image">Vadapav</a></li>
+            <li><a href="#fourth-image">Samosa</a></li>
+            <li><a href="#fifth-image">Idli</a></li>
+        </ul>
+    </div>
+
+    <div id = "first-image"> 
+        <img src = "/Kachori.jpg" alt="Indian Kachori" height="350px" width="510px" />
+        <h3 class="image-name">Kachori</h3>
+    </div>
+
+    <div id="second-image">
+        <img src="/pav-bhaji.jpg" alt="mouth waterings pav-bhaji" height="350px" />
+        <h3 class="image-name">Pav Bhaji</h3>
+    </div>
+
+    <div id="third-image">
+        <img src="/vadapav.jpg" alt="Tasty Vadapav" />
+        <h3 class="image-name">Vadapav</h3>
+    </div>
+
+    <div id="fourth-image"> 
+        <img src="/Samosa.jpg" alt="flavoursome Samosa" height="350px" />
+        <h3 class="image-name">Samosa</h3>
+    </div>
+
+    <div id="fifth-image">
+        <img src="/Idli.jpg" alt="Inviting Idly " height="350px" />
+        <h3 class="image-name">Idli</h3>
+    </div>
+</body>
+</html>
+html{
+    scroll-behavior: smooth
+}
+
+.menu{
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+body{
+    background-color: olive;
+    margin: 0px;
+}
+
+.top{
+    padding: 12px;
+    background-color: darkslategrey;
+    margin: 0px;
+}
+
+p:hover{
+    background-color: rgb(46, 40, 5);
+    display: inline;
+}
+
+.image-name{
+    text-align: center;
+    padding: 12px 10px;
+    font-size: 20px;
+    margin-top: -1px;
+}
+
+a{
+    color: rgb(53, 33, 2);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#first-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+#second-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+
+#third-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 5px;
+
+}
+
+#fourth-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+
+#fifth-image{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+
